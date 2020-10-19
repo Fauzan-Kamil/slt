@@ -1,0 +1,96 @@
+/*margin langsung otomatis semuanya*/
+/* *{
+	margin: 0
+} */
+
+body{
+
+	/* cara lama 
+	background-image: url("D:/Latihan html/back 2.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top; */ 
+	
+
+	background-color: #2f2f2b;
+}
+/* margin */
+#menu_jarak{
+	/*margin: top right bottom left; */
+	margin: 10px 10px 50px 10px ;
+}
+
+/* display */
+.menu{
+	display: inline-block;
+	/*height: 50px;
+	width: 100px;*/
+	text-decoration: none;
+
+	/*border-width: 3px;
+	border-style: solid;
+	border-color: black;*/
+
+	border:5px solid black;
+
+	padding: 10px;
+}
+
+/* kondisi biasa */
+.menu:link{
+	background: blue;
+	color:white;
+}
+
+/* kondisi setelah di kunjungi */
+.menu:visited{
+	background: pink;
+}
+
+/* kondisi hover- mouse ada di atas text */
+.menu:hover{
+	background: green;
+}
+
+/* kondisi di klik */
+.menu:active{
+	background: red;
+}
+
+h1{
+	color: #ff0000;
+	 font-family: "Times New Roman", Times, serif;
+	 text-align: center;
+	 text-decoration: underline;
+
+}
+.img{
+	border-radius: 8px;
+	padding: 15px;
+ 	text-align: center;
+ 	margin: 5px;
+  	border: 1px solid #ccc;
+  	float: left;
+  	width: 180px;
+
+}
+
+h2 {
+	color: #ff5a0b;
+	font-size: 20px;
+	font-family: "Arial", Helvetica,sans-serif;
+	text-align: center;
+}
+#text_satu {
+	text-align: justify;
+	font-family: "Arial", Helvetica, sans-serif;
+	color:  #fff2bc;
+	font-size: 16px;
+	text-indent: 24px;
+	/* Dekorasi Text
+	letter-spacing: 5px;
+	line-height: 20px; 
+	word-spacing: 5px;
+	text-transform: uppercase;
+	*/
+}
